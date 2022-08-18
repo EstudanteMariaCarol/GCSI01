@@ -1,0 +1,50 @@
+import Link from 'next/link'
+import styles from '/styles/Home.module.css'
+
+export default function Home() {
+  return (
+    <div className={styles.cartao2}>
+    <div>
+ <center>
+ <div className={styles.cartao}>
+<h3 className="title"> Cadastrar </h3></div></center>
+<h3 className="title2"><p>Nome :</p></h3>
+<input type="text" name="nome" size="40" /> 
+<h3 className="title2"><p>E-mail :</p></h3>
+<input type="text" name="email" size="40" /> 
+<h3 className="title2"><p>Senha :</p></h3>
+<input type="text" name="senha" size="40" /> 
+<h3 className="title2"><p>Confirmar Senha :</p></h3>
+<input type="text" name="Nome" size="40" /> 
+
+  <center>
+ <div className={styles.cartao8}>  
+  <h3 className="titleb">       
+<Link href="/posts/confirmar">Confirmar</Link>         
+</h3></div></center> 
+      
+ <center>
+ <div className={styles.cartao8}>
+  <h3 className="titleb">        
+  <Link href="/posts/firstpost">Login</Link>       
+  </h3></div></center>
+
+    <center>
+ <div className={styles.cartao8}>
+  <h3 className="titleb">        
+  <Link href="/posts/thirdpost">Trocar Senha</Link>       
+  </h3></div></center>
+
+   <center>
+ <div className={styles.cartao8}>     
+<h3 className="titleb">        
+<Link href="/">Voltar ao menu</Link>             
+</h3></div></center>    
+
+<ul>
+</ul> 
+
+</div>
+</div>      
+    
+  )};

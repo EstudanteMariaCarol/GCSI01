@@ -1,4 +1,105 @@
 html, body {
-  height: 100%;
+  height: 20px;
   width: 100%;
+  background-image:url("imagem.png");
+  display: flex;  
+  min-height: 100vh;
+  background-size: 110%;   
+  font-family : Geneva;
+  flex-direction: column;  
+  justify-content: center; 
+  align-items : center; 
+  color: black;
+  letter-spacing: 2px;
+  
 }
+
+.a{
+  color:#b37bac;
+}
+
+
+ .title{
+  background-color: #26425d ;
+  width: 70%;
+  height: 8%;
+  display: flex;
+  flex-direction: row-reverse;  
+  justify-content: center; 
+  align-items : center; 
+  position: absolute;  
+  letter-spacing: 4px;
+	top: 52%;
+  left:15%;
+  color: #b37bac;
+ }
+
+.cartao1{
+ background-color:#F180B9; 
+  border-radius: 5px;
+  width: 70%;
+  height: 100%;
+}
+
+.cartao2{
+ background-color:#8492E7; 
+  width: 96%;
+  height: 115%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ .botão{
+  background-color: #26425d ;
+  width: 100%;
+  height: 8%;
+  display: flex;
+  flex-direction: row-reverse;  
+  justify-content: center; 
+  align-items : center; 
+  position: absolute;  
+  letter-spacing: 8px;
+	top: 12%;
+  color: #b37bac;
+ }
+ .botão1{
+  background-color: #b37bac ;
+  width: 100%;
+  height: 2%;
+  display: flex;
+  flex-direction: row-reverse;  
+  justify-content: center; 
+  align-items : center; 
+  position: absolute;  
+  letter-spacing: 8px;
+	top: 10%;
+ }
+
+ .cabeçalho{
+  background-color: #26425d ;
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: row-reverse;  
+  justify-content: center; 
+  align-items : center; 
+  position: absolute;  
+  letter-spacing: 8px;
+	top: 0%;
+  color: #b37bac;
+ }
+
+ .rodape{
+  background-color: #26425d ;
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: row-reverse;  
+  justify-content: center; 
+  align-items : center; 
+  position: absolute;  
+  letter-spacing: 8px;
+  left:0%;
+	top: 100%;
+  color: #b37bac;
+ }
